@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/learnvitepress/',
   title: 'My Documentation',
   description: 'A VitePress Site',
   themeConfig: {
